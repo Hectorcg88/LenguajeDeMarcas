@@ -1,0 +1,17 @@
+.logo-empresa{
+    height: 50px;
+    width: 90px;
+}
+
+.maq-coser{
+    height: 240px;
+    width: 200px;
+}
+
+.img.maq{
+    align-items: flex-end;
+}
+.primer_apartado{
+    margin: 0;
+    background-color: rgb(220, 181, 139);
+}
