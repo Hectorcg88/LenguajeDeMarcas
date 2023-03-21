@@ -27,15 +27,15 @@ header nav .arribaderecha .lista a {
 }
 
 .primer-apartado {
-    background-color: rgb(220, 181, 139);
+    background-color: rgb(245, 224, 202);
     justify-content: space-around;
     display: flex;
 }
 
-.primer-apartado .principal .ver-productos{
+.primer-apartado .principal .ver-productos {
     margin-left: 5%;
     margin-bottom: 2%;
-    background-color: rgb(223, 164, 101);
+    background-color: rgb(255, 227, 182);
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -88,14 +88,15 @@ header nav .arribaderecha .lista a {
     border: 1px solid black;
 }
 
-.formulario{
-    background-color: rgb(220, 181, 139);
+.formulario {
+    background-color: rgb(245, 224, 202);
     text-align: center;
+    margin-top: 5%;
 }
 
 
 
-.formulario .datos{
+.formulario .datos {
     justify-content: space-around;
     border-radius: 5px;
     border: none;
@@ -103,14 +104,14 @@ header nav .arribaderecha .lista a {
     margin-top: 1%;
 }
 
-.formulario .datos input{
+.formulario .datos input {
     width: 300px;
     height: 30px;
 }
 
 
-.formulario .enviar{
-    background-color: rgb(223, 164, 101);
+.formulario .enviar {
+    background-color: rgb(255, 227, 182);
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -124,9 +125,51 @@ header nav .arribaderecha .lista a {
 }
 
 
-.formulario .observaciones input{
+.formulario .observaciones input {
     width: 620px;
     border-radius: 5px;
     border: none;
     height: 150px;
+}
+
+.abajo-formulario {
+    display: flex;
+    font-size: large;
+    margin: 2%;
+}
+
+.abajo-formulario li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.abajo-formulario .primer-abajo {
+    width: 33%;
+}
+
+.abajo-formulario .segundo-abajo {
+    width: 33%;
+}
+
+.abajo-formulario .tercer-abajo {
+    width: 33%;
+}
+
+.abajo-formulario .primer-abajo .negrita {
+    font-weight: bold;
+}
+
+.abajo-formulario .segundo-abajo .negrita {
+    font-weight: bold;
+}
+
+.abajo-formulario .tercer-abajo .negrita {
+    font-weight: bold;
+}
+
+.abajo {
+    background-color: rgb(245, 224, 202);
+    text-align: center;
+    position: relative;
+    height: 30px;
 }
