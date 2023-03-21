@@ -1,17 +1,132 @@
-.logo-empresa{
+.logo-empresa {
     height: 50px;
     width: 90px;
 }
 
-.maq-coser{
-    height: 240px;
-    width: 200px;
+header nav .arribaderecha {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 10px;
 }
 
-.img.maq{
-    align-items: flex-end;
+header nav .arribaderecha .lista a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
 }
-.primer_apartado{
-    margin: 0;
+
+.primer-apartado .maq-coser {
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+}
+
+.primer-apartado {
     background-color: rgb(220, 181, 139);
+    justify-content: space-around;
+    display: flex;
+}
+
+.primer-apartado .principal .ver-productos{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: rgb(223, 164, 101);
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+.primer-apartado .parrafo-principal {
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.titulo-principal {
+    font-size: xx-large;
+    margin-left: 3%;
+}
+
+.contenedores {
+    display: flex;
+    border-radius: 20px;
+    gap: 3%;
+    justify-content: space-evenly;
+    margin: 1%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: large;
+}
+
+.contenedores .valores {
+    background-color: rgb(255, 227, 182);
+    border-radius: 20px;
+    width: 33%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+}
+
+.contenedores .compromiso {
+    background-color: rgb(255, 227, 182);
+    border-radius: 20px;
+    width: 33%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+}
+
+.contenedores .calidad {
+    background-color: rgb(255, 227, 182);
+    border-radius: 20px;
+    width: 33%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+}
+
+.formulario{
+    background-color: rgb(220, 181, 139);
+    text-align: center;
+}
+
+
+
+.formulario .datos{
+    justify-content: space-around;
+    border-radius: 5px;
+    border: none;
+    margin: 0.5%;
+    margin-top: 1%;
+}
+
+.formulario .datos input{
+    width: 300px;
+    height: 30px;
+}
+
+
+.formulario .enviar{
+    background-color: rgb(223, 164, 101);
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.formulario .contacta {
+    padding-top: 2%;
+}
+
+
+.formulario .observaciones input{
+    width: 620px;
+    border-radius: 5px;
+    border: none;
+    height: 150px;
 }
