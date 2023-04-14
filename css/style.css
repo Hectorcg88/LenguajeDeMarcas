@@ -264,4 +264,9 @@ header nav .arribaderecha li a {
     font-size: 16px;
     font-weight: bold;
     text-align: left;
+    display: flex;
+  }
+  
+  .imagen .precio {
+    margin-left: 50%; 
   }
