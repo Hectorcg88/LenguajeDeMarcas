@@ -1,7 +1,16 @@
-const beepSound = document.getElementById("beep-sound");
+function hola(){
+  swal("Gracias jefe!", "Te responderé en cuanto pueda", "success");
+}
 
-const button = document.querySelector(".formulario .enviar");
-button.addEventListener("click", function() {
-  beepSound.currentTime = 0;
-  beepSound.play();
-});
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
+
+
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+})
+
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
