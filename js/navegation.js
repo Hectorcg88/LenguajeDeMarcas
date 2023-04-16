@@ -6,6 +6,13 @@ function hola(){
   swal("Gracias jefe!", "Te responderé en cuanto pueda", "success");
 }
 
+/**
+ * Esta funcion indica al cliente que el objeto se ha añadido correctamente a la cesta
+ */
+
+function agregarCesta(){
+  swal("Producto agregado", "Accede a la cesta para terminar la compra", "success");
+}
 
 /**
  * Declaración de constantes para hacer los menus
@@ -27,3 +34,11 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+
+/**
+ * Esta funcion muestra un mensaje en pantalla al darle a un boton
+ */
+
+function mostrarMensaje() {
+  alert("Enhorabuena, has encontrado un descuento especial, con el codigo QWER-HFAS-IAFJ tendras un 10% de descuento en tu proxima compra");
+}
