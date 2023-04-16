@@ -270,3 +270,32 @@ header nav .arribaderecha li a {
   .imagen .precio {
     margin-left: 50%; 
   }
+
+  .detalles{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+
+  .detalles img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .detalles .parrafada p{
+    font-size: 20px;
+    margin: 3%;
+    margin-top: 0;
+  }
+
+  .detalles .parrafada .cuantia {
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: column;
+  }
+
+   .titulo-objeto{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5%;
+  }
